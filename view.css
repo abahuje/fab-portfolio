@@ -1,0 +1,64 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    color: rgb(0, 0, 0);
+    background-image: url(tecno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     
+}
+.service{ 
+    padding: 100px 0;
+}
+.max-width { 
+    max-width: 1300px;
+    padding: 0 45px;
+    margin: auto;
+}
+.max-width h1 { 
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+.max-width h1::after { 
+    position: absolute;
+    width: 170px;
+    height: 3px;
+    background: white;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{ 
+    padding: 50px 25px;
+    width: calc(26% - 20px);
+    border-radius: 6px;
+    background: black;
+    opacity: 0.7;
+    height: 500PX;
+    
+}
+.service .max-width a{ 
+    background: wheat;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: azure;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
+

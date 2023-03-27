@@ -1,0 +1,113 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    width: -1000px;
+    
+    
+}
+.nav_bar {
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+body{ 
+    background-image: url(tecno.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav_bar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: white;
+    font-size: 2rem;
+    margin-left: 1200px;
+    margin-top: 40px;
+    color: white;
+    
+}
+.nav_bar ul li a { 
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.nav_bar ul li:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.skills{ 
+    padding-top: 4rem;
+    line-height: 0.9rem;
+    padding-right: 200px;
+    
+}
+.do{ 
+    width: 80%;
+    margin-left: 10%;
+}
+.html-skills{ 
+    display: flex;
+    justify-content: space-between;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+}
+.html-skills .nmbr{ 
+    color: white;
+    font-weight: bold;
+}
+.forloop{ 
+    text-align: center;
+    color: greenyellow;  
+}
+.sand{ 
+    color: white;
+}
+.bar{ 
+    height: 2vh;
+    display: block;
+    background-color: wheat;
+}
+.bar span{ 
+    height: 2vh;
+    float: left;
+    background-color: yellow;
+}
+.html{ 
+    width: 75%;
+    animation: html;    
+}
+.css{ 
+    width: 45%;
+    animation: html;
+}
+.java{ 
+    width: 30%;
+    animation: html;
+}
+.c{ 
+    width: 55%;
+    animation: html;  
+}
+.mysql{ 
+    width: 85%;
+    animation: html;  
+}
+.python{ 
+    width: 10%;
+    animation: html;  
+}
+
+
+
