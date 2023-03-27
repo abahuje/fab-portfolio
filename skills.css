@@ -108,6 +108,11 @@ body{
     width: 10%;
     animation: html;  
 }
+@media (max-width:991px)
+{
+     
+
+}
 
 
 
